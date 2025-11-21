@@ -26,6 +26,8 @@ if st.button("Predict Price"):
     input_data = [[encoded_model,mileage,age]]
     predicted_price = model.predict(input_data)
     st.success(f"Estimated selling price: {predicted_price[0]}")
+    
+st.success(f"Zaheen Iqbal Khan")
 
 
 
